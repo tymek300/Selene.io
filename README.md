@@ -1,4 +1,4 @@
-<h1 align="center">🌙🌚 Lunar || Selene.io 🌙🌚</h1>
+<h1 align="center">🌙🌚 Lunar || Selene.io 🌚🌙</h1>
   
 <p align="center">
   <img src="https://i.imgur.com/zXEY5fk.png" alt="Project Logo">
