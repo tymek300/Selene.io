@@ -158,12 +158,7 @@ Ensure you have the following software installed on your machine:
 
    ```sh
    git clone https://github.com/yourusername/yourrepository.git
-   2. **Start XAMPP:**
 
-   - Launch XAMPP Control Panel.
-   - Start Apache and MySQL modules.
-
-   
  2. **Start XAMPP:**
 
    - Launch XAMPP Control Panel.
