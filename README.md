@@ -73,3 +73,35 @@ The goal of the Lunar e-commerce project, which sells software and gift cards, i
     + Manageability: products, product photos, categories and subcategories, users, orders, promotional codes from the admin panel
 - **Database:**
     ![Database screenshot](https://i.imgur.com/mGnArNg.png)
+- **Reports and explanations:**
+  * USER table:
+    + Connected to the mail_verify table, which contains records about newly created accounts requiring verification and tokens
+    + Connected to the favorite_product table which contains information about a given user's favorite products
+    + Connected to the product_review table where there is information about product reviews posted by the user
+    + Connected to the collaboration table, which contains queries sent by the form regarding collaboration. If they were sent by a logged-in user, they will be associated with that user
+    + Connected to the user_adress table, which contains user addresses that go there when placing the first order and are updated with each subsequent order.
+    + Connected to the password_reset table where there are records regarding password reset (in case of forgetting, etc.) and tokens necessary for the reset
+    + Connected to the cart table to assign a specific cart to a specific user
+  * PRODUCT table:
+    + Connected to the favorite_product and product_review tables. Explanations about the content of these tables can be found in point USER.
+    + Linked to the product_photos table to assign photos to a specific product
+    + Connected to the product_categories table (many-to-many relationship) to assign products to specific categories
+    + Linked to the cart_product table to identify the product in the cart
+  * CART table:
+    + Connected to the cart_product table to assign specific records with products and their multitude to specific user carts
+    + Connected to the order_ table to assign a specific cart to a specific order
+  * CATEGORY/SUBCATEGORY tables:
+    + The category table is connected to the subcategory table so that each subcategory is assigned to a specific category, e.g. Adenture to Games.
+    + The subcategory table is connected to the product_categories table (many-to-many relationship) so that products can be assigned to specific subcategories (this makes more sense when used in practice, as it         allows for specific filtering, e.g. not by Games alone, but by Adventure Games)
+  * Other minor tables:
+    + The user_address table is assigned to order_ to include the user's address with the order
+    + The order_status table is assigned to order_ so that order statuses can be easily managed
+    + The promo_code table is assigned to cart so that discount codes can be easily applied to the contents of users' carts
+
+
+
+
+
+
+
+
