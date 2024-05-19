@@ -179,11 +179,11 @@ Ensure you have the following software installed on your machine:
 5. **Configure the project:**
 
    - Move the cloned repository to the XAMPP `htdocs` directory (e.g., `C:\xampp\htdocs` on Windows or `/Applications/XAMPP/htdocs` on macOS).
-   - Ensure the project files are accessible via `http://localhost/yourrepository`.
+   - Ensure the project files are accessible via `http://localhost/Selene.io`.
 
 6. **Update database configuration (if required):**
 
-   If your project includes a configuration file for database settings (e.g., `config.php`), ensure it contains the correct details for connecting to the `selene` database. This typically involves setting the following parameters:
+   Ensure that project includes a configuration file for database settings which contains the correct details for connecting to the `selene` database(default: components/databaseConn.php). This typically involves setting the following parameters:
 
    ```php
    $servername = "localhost";
