@@ -139,6 +139,66 @@ No problems with the operation of the project were noticed in any of the browser
   - Introduction of an order evaluation system
   - Introduction of a contact form for technical support
 
+## 5. Installation Instructions
+
+To set up this project, follow the steps below:
+
+### Prerequisites
+
+Ensure you have the following software installed on your machine:
+
+- [XAMPP](https://www.apachefriends.org/index.html) (includes Apache, PHP, and MySQL)
+- A web browser
+
+### Steps
+
+1. **Clone the repository:**
+
+   Open your terminal and run the following command to clone the repository:
+
+   ```sh
+   git clone https://github.com/yourusername/yourrepository.git
+   2. **Start XAMPP:**
+
+   - Launch XAMPP Control Panel.
+   - Start Apache and MySQL modules.
+
+   
+ 2. **Start XAMPP:**
+
+   - Launch XAMPP Control Panel.
+   - Start Apache and MySQL modules.
+
+3. **Set up the database:**
+
+   - Open your web browser and go to `http://localhost/phpmyadmin`.
+   - In phpMyAdmin, create a new database named `selene`.
+
+4. **Import the required database schema:**
+
+   - In phpMyAdmin, select the `selene` database.
+   - Click on the `Import` tab.
+   - Click `Choose File` and select the `RequiredDatabase.sql` file from the cloned repository.
+   - Click `Go` to import the database schema.
+
+5. **Configure the project:**
+
+   - Move the cloned repository to the XAMPP `htdocs` directory (e.g., `C:\xampp\htdocs` on Windows or `/Applications/XAMPP/htdocs` on macOS).
+   - Ensure the project files are accessible via `http://localhost/yourrepository`.
+
+6. **Update database configuration (if required):**
+
+   If your project includes a configuration file for database settings (e.g., `config.php`), ensure it contains the correct details for connecting to the `selene` database. This typically involves setting the following parameters:
+
+   ```php
+   $servername = "localhost";
+   $username = "root";
+   $password = "";
+   $dbname = "selene";
+
+7. **Access the project:**
+
+Open your web browser and navigate to http://localhost/yourrepository to see the project in action.
     
 ## 5. License
 
