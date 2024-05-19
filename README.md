@@ -56,6 +56,18 @@ The goal of the Lunar e-commerce project, which sells software and gift cards, i
    * RWD view on all pages except the admin panel
 - **User groups:**
   * User not logged in:
-    + 
-   
-
+    + Ability to browse products on the home page and filter them
+    + Ability to view product details and reviews
+    + Ability to visit the About Us and Contact pages and send the collaboration form
+    + Ability to check the status of your order on the Order Status page
+  * Logged in user:
+    + Ability to perform the same actions as a non-logged in user
+    + Ability to add products to the cart
+    + Ability to place orders
+    + Ability to post product reviews and add products to favorites
+    + Ability to view details of your profile and the profiles of other users
+    + Ability to edit your account's password, nickname and profile photo
+  * Admin:
+    + Possibility to perform the same actions as the logged in user, apart from changing the nickname
+    + Access to the administration panel
+    + Manageability: products, product photos, categories and subcategories, users, orders, promotional codes from the admin panel
