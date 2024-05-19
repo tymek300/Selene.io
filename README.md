@@ -140,7 +140,7 @@ No problems with the operation of the project were noticed in any of the browser
   - Introduction of a contact form for technical support
 
     
-## License
+## 5. License
 
 This project is licensed under the Creative Commons Attribution-NonCommercial 4.0 International License. You can find the full text of the license in the [LICENSE](./LICENSE) file.
 
