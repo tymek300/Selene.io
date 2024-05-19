@@ -198,7 +198,7 @@ Ensure you have the following software installed on your machine:
 
 7. **Access the project:**
 
-Open your web browser and navigate to http://localhost/yourrepository to see the project in action.
+  Open your web browser and navigate to http://localhost/yourrepository to see the project in action.
     
 ## 5. License
 
