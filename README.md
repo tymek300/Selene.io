@@ -2,7 +2,7 @@
 ## 1. Project characteristics
 The goal of the Lunar e-commerce project, which sells software and gift cards, is to create an online platform that allows customers easy access to a variety of digital products. By providing an intuitive user interface that allows customers to conveniently purchase software and gift cards online. Additionally, this project is intended to provide appropriate product, order and customer management functionalities for store owners, thus ensuring effective business service.
 
-## 2. System description: 
+## 2. System description
 - **Project modules:**
    * Cart module:
       + Adding products to the cart
@@ -97,7 +97,7 @@ The goal of the Lunar e-commerce project, which sells software and gift cards, i
     + The user_address table is assigned to order_ to include the user's address with the order
     + The order_status table is assigned to order_ so that order statuses can be easily managed
     + The promo_code table is assigned to cart so that discount codes can be easily applied to the contents of users' carts
-## 3. Technologies used:
+## 3. Technologies used
 The project was implemented in the following programming languages:
   - HTML
   - CSS (with Tailwind CSS framework)
