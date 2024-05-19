@@ -30,7 +30,7 @@ The goal of the Lunar e-commerce project, which sells software and gift cards, i
       + Possibility to reset your password
       + Possibility to log in/register using: website form, Google, Facebook, Discord (you need to add clientID and client secret yourself)
       + Sending an email to confirm account registration and password reset
-      * Orders module:
+   * Orders module:
       + Invoice generation
       + Sending an mail with an invoice after placing an order
       + Sending an email when there is a change in order status
@@ -55,5 +55,7 @@ The goal of the Lunar e-commerce project, which sells software and gift cards, i
    * Possibility to manage promotional codes from the administrator panel (modification, adding, deleting)
    * RWD view on all pages except the admin panel
 - **User groups:**
+  * User not logged in:
+    + 
    
 
