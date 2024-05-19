@@ -183,7 +183,7 @@ Ensure you have the following software installed on your machine:
 
 6. **Update database configuration (if required):**
 
-   Ensure that project includes a configuration file for database settings which contains the correct details for connecting to the `selene` database(default: components/databaseConn.php). This typically involves setting the following parameters:
+   Ensure that project includes a configuration file for database settings which contains the correct details for connecting to the `selene` database (default: `components/databaseConn.php`). This typically involves setting the following parameters:
 
    ```php
    $servername = "localhost";
