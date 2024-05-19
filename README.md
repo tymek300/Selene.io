@@ -5,19 +5,19 @@ The goal of the Lunar e-commerce project, which sells software and gift cards, i
 ## 2. System description: 
    - **Project modules:**
     * Cart module:
-      + Adding products to the cart
-      + Removing products from the cart
-      + Possibility to edit the number of products in the cart and calculate the new cart value in real time
+         + Adding products to the cart
+         + Removing products from the cart
+         + Possibility to edit the number of products in the cart and calculate the new cart value in real time
     * Products module:
-      + Displaying products with a gallery of their photos
-      + Product filtering
+         + Displaying products with a gallery of their photos
+         + Product filtering
     * Administrator module:
-      + User management
-      + Product management
-      + Product photo management
-      + Managing promotional codes
-      + Order management
-      + Category/subcategory management
+         + User management
+         + Product management
+         + Product photo management
+         + Managing promotional codes
+         + Order management
+         + Category/subcategory management
     * User module:
       + Adding/removing products to favorites
       + Adding product reviews
