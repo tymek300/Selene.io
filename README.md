@@ -72,4 +72,4 @@ The goal of the Lunar e-commerce project, which sells software and gift cards, i
     + Access to the administration panel
     + Manageability: products, product photos, categories and subcategories, users, orders, promotional codes from the admin panel
 - **Database:**
-    ![Database screenshot](https://imgur.com/a/woc3Lgy)
+    ![Database screenshot](https://i.imgur.com/mGnArNg.png)
