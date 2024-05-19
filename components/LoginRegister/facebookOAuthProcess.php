@@ -32,8 +32,8 @@
         {
             $payload = [
             'code' =>  $facebookCode, 
-            'client_id' => '936773258081992',
-            'client_secret' => '3fd98cae1b3f41eeb9c4dfce8d3447af',
+            'client_id' => 'YOUR CLIENT ID',
+            'client_secret' => 'YOUR CLIENT SECRET',
             'redirect_uri' =>  'http://localhost/Selene.io/components/LoginRegister/facebookOAuthProcess.php?action=login',
             ];
         }
