@@ -138,3 +138,9 @@ No problems with the operation of the project were noticed in any of the browser
   - Assistant bot API introduction in the lower right corner
   - Introduction of an order evaluation system
   - Introduction of a contact form for technical support
+
+    
+## License
+
+This project is licensed under the Creative Commons Attribution-NonCommercial 4.0 International License. You can find the full text of the license in the [LICENSE](./LICENSE) file.
+
