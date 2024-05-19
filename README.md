@@ -97,7 +97,7 @@ The goal of the Lunar e-commerce project, which sells software and gift cards, i
     + The user_address table is assigned to order_ to include the user's address with the order
     + The order_status table is assigned to order_ so that order statuses can be easily managed
     + The promo_code table is assigned to cart so that discount codes can be easily applied to the contents of users' carts
-# 3. Technologies used:
+## 3. Technologies used:
 The project was implemented in the following programming languages:
   - HTML
   - CSS (with Tailwind CSS framework)
@@ -121,7 +121,7 @@ The project was tested in 3 browsers:
   - Microsoft Edge
     
 No problems with the operation of the project were noticed in any of the browsers.
-# 4. Development ideas
+## 4. Development ideas
   - Payment API implementation, e.g. PayPal, Skrill
   - Updating the products table with activation codes and sending them when the order status changes to Completed
   - Implementation of the website for receiving codes from point above
