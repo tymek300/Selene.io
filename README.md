@@ -8,6 +8,10 @@ The goal of the Lunar e-commerce project, which sells software and gift cards, i
       + Adding products to the cart
       + Removing products from the cart
       + Possibility to edit the number of products in the cart and calculate the new cart value in real time
+  * Products module:
+      + Displaying products with a gallery of their photos
+      + Product filtering
+
 
 
 
