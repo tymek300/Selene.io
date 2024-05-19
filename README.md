@@ -103,19 +103,23 @@ The project was implemented in the following programming languages:
   - CSS (with Tailwind CSS framework)
   - PHP
   - JavaScript
+    
 The following work environments were used when writing the project code:
   - Microsoft Visual Studio Code
   - JetBrains PhpStorm 2024
   - Cursor (which is a kind of overlay for VSCode, including internal AI)
+    
 Artificial intelligence was also used to improve work or answer theoretical questions:
   - GPT 3.5
   - GPT 4.0
   - GitHub Copilot
   - Blackbox AI
+    
 The project was tested in 3 browsers:
   - Google Chrome
   - Opera GX
   - Microsoft Edge
+    
 No problems with the operation of the project were noticed in any of the browsers.
 # 4. Development ideas
   - Payment API implementation, e.g. PayPal, Skrill
