@@ -99,32 +99,32 @@ The goal of the Lunar e-commerce project, which sells software and gift cards, i
     + The promo_code table is assigned to cart so that discount codes can be easily applied to the contents of users' carts
 # 3. Technologies used:
 The project was implemented in the following programming languages:
-- HTML
-- CSS (with Tailwind CSS framework)
-- PHP
-- JavaScript
+  - HTML
+  - CSS (with Tailwind CSS framework)
+  - PHP
+  - JavaScript
 The following work environments were used when writing the project code:
-- Microsoft Visual Studio Code
-- JetBrains PhpStorm 2024
-- Cursor (which is a kind of overlay for VSCode, including internal AI)
+  - Microsoft Visual Studio Code
+  - JetBrains PhpStorm 2024
+  - Cursor (which is a kind of overlay for VSCode, including internal AI)
 Artificial intelligence was also used to improve work or answer theoretical questions:
-- GPT 3.5
-- GPT 4.0
-- GitHub Copilot
-- Blackbox AI
+  - GPT 3.5
+  - GPT 4.0
+  - GitHub Copilot
+  - Blackbox AI
 The project was tested in 3 browsers:
-- Google Chrome
-- Opera GX
-- Microsoft Edge
+  - Google Chrome
+  - Opera GX
+  - Microsoft Edge
 No problems with the operation of the project were noticed in any of the browsers.
 # 4. Development ideas
-- Payment API implementation, e.g. PayPal, Skrill
-- Updating the products table with activation codes and sending them when the order status changes to Completed
-- Implementation of the website for receiving codes from point above
-- Implementation of a system of random promotions and replacing the banner on the main page with a block with promotions
-- Implementation of automatic order status changes, e.g. Paid —> Completed (after 5 minutes); Unpaid —> Canceled (after 48 hours)
-- Implementation of the possibility of placing orders without creating an account
-- Entering order history in the user panel
-- Assistant bot API introduction in the lower right corner
-- Introduction of an order evaluation system
-- Introduction of a contact form for technical support
+  - Payment API implementation, e.g. PayPal, Skrill
+  - Updating the products table with activation codes and sending them when the order status changes to Completed
+  - Implementation of the website for receiving codes from point above
+  - Implementation of a system of random promotions and replacing the banner on the main page with a block with promotions
+  - Implementation of automatic order status changes, e.g. Paid —> Completed (after 5 minutes); Unpaid —> Canceled (after 48 hours)
+  - Implementation of the possibility of placing orders without creating an account
+  - Entering order history in the user panel
+  - Assistant bot API introduction in the lower right corner
+  - Introduction of an order evaluation system
+  - Introduction of a contact form for technical support
