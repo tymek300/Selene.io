@@ -1,6 +1,6 @@
 # Lunar || Selene.io
 <p align="center">
-  ![Project Logo](https://i.imgur.com/zXEY5fk.png)
+  <img src="https://i.imgur.com/zXEY5fk.png" alt="Project Logo">
 </p>
 
                                                                                                           
