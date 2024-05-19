@@ -18,21 +18,21 @@ The goal of the Lunar e-commerce project, which sells software and gift cards, i
       + Managing promotional codes
       + Order management
       + Category/subcategory management
- * User module:
-      + Adding/removing products to favorites
-      + Adding product reviews
-      + Edit password
-      + Editing your nickname
-      + Edit your profile picture
-      + Sending a collaboration form
-      + Checking order status
- * Login/registration module:
-      + Possibility to reset your password
-      + Possibility to log in/register using: website form, Google, Facebook, Discord (you need to add clientID and client secret yourself)
-      + Sending an email to confirm account registration and password reset
- * Orders module:
-      + Invoice generation
-      + Sending an mail with an invoice after placing an order
-      + Sending an email when there is a change in order status
+  * User module:
+       + Adding/removing products to favorites
+       + Adding product reviews
+       + Edit password
+       + Editing your nickname
+       + Edit your profile picture
+       + Sending a collaboration form
+       + Checking order status
+  * Login/registration module:
+       + Possibility to reset your password
+       + Possibility to log in/register using: website form, Google, Facebook, Discord (you need to add clientID and client secret yourself)
+       + Sending an email to confirm account registration and password reset
+  * Orders module:
+       + Invoice generation
+       + Sending an mail with an invoice after placing an order
+       + Sending an email when there is a change in order status
  - **Additional functionalities:**
         
