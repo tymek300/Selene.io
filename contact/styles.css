@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap');
+
+/* ================================================= */
+
+* {
+    box-sizing: border-box;
+}
+
+/* ================================================= */
+
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+
+    width: 100vw;
+    height: 100vh;
+
+    overflow-x: hidden;
+}
+
+a {
+    cursor: pointer;
+    color: inherit;
+}
+
+button {
+    border: 0;
+}
+
+input:focus-visible {
+    border: none;
+    outline: none;
+}
+
+/* ================================================= */
+
+/*GOOGLE-MAPS*/
+
+.map-box {
+    height: 35%;
+    width: 100%;
+
+
+    margin-bottom: 50px;
+}
+
+.map {
+    width: 100%;
+    height: 100%;
+
+    border: 0;
+
+    -webkit-box-shadow: 0 -5px 28px -15px rgba(66, 68, 90, 1);
+    -moz-box-shadow: 0 -5px 28px -15px rgba(66, 68, 90, 1);
+    box-shadow: 0 -5px 28px -15px rgba(66, 68, 90, 1);
+}
+
+/* ================================================= */
+
+/*CONTACTINFORMATIONS*/
+
+.contact-info-box {
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    font-family: "Montserrat", sans-serif;
+
+    margin: 0 0 80px 0;
+}
+
+.contact-info-box hr {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    width: 70%;
+}
+
+.contact-infos {
+    height: 90%;
+    width: auto;
+
+    margin-bottom: 30px;
+}
+
+.contact-infos h4 {
+    margin: 0 0 8px 0;
+
+    font-size: large;
+    font-weight: bold;
+}
+
+.contact-infos p {
+    margin: 0 0 8px 0;
+
+    width: fit-content;
+}
+
+.contact-infos span {
+    color: #4c2ea7;
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+.contact-infos span::after {
+    content: " ";
+
+    display: block;
+
+    height: 2px;
+    width: 0;
+
+    background-color: #4c2ea7;
+
+    transition-duration: 600ms;
+}
+
+.contact-infos span:hover::after {
+    width: 100%;
+}
+
+.contact-infos div:last-child {
+    margin: 0;
+}
+
+.info p:last-child {
+    margin: 0;
+}
+
+.info {
+    margin: 0 0 30px 0;
+}
+
+.rodo-infos {
+    width: 60%;
+
+    margin: 30px 0 0 0;
+}
+
+.rodo-infos h2 {
+    text-align: center;
+
+    margin: 0 0 40px 0;
+
+    font-size: large;
+    font-weight: bold;
+}
+
+.rodo-infos div {
+    width: 100%;
+
+    text-align: center;
+
+    margin: 0 0 30px 0;
+}
+
+/* ================================================= */
+
+/* FOOTER */
+
+.footer-bottom {
+    display: flex;
+
+    font-family: 'Kanit', sans-serif;
+
+    width: 100%;
+
+    background-color: #1F2937;
+}
+
+.footer-bottom-lists {
+    display: flex;
+    justify-content: start;
+
+    padding-top: 30px;
+    padding-left: 10%;
+
+    gap: 32px;
+
+    width: 70%;
+    height: 100%;
+
+    color: #ffffff;
+}
+
+.list-box {
+    width: 193px;
+
+    height: fit-content;
+}
+
+.list-title {
+    margin-bottom: 16px;
+
+    font-weight: 700;
+
+    text-transform: uppercase;
+}
+
+.footer-list {
+    font-size: 14px;
+
+    line-height: 20px;
+
+    color: #999999;
+}
+
+.footer-list-element {
+    margin-bottom: 8px;
+
+    transition-duration: 300ms;
+
+    cursor: pointer;
+}
+
+.footer-bottom-icons {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+}
+
+.footer-bottom-icons-box {
+    display: flex;
+
+    padding: 48px 0 48px 0;
+
+    align-items: center;
+}
+
+@media screen and (max-width: 700px) {
+
+    .footer-bottom {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-bottom-lists {
+        padding-left: 0;
+        justify-content: center;
+
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 655px) {
+
+    .footer-bottom-lists {
+        flex-direction: column;
+        align-items: center;
+    }
+
+}

@@ -1,0 +1,493 @@
+/* FONTS-IMPORT */
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+/* ================================================= */
+
+/* BODY/HTML/ETC */
+
+* {
+    box-sizing: border-box;
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+
+    width: 100vw;
+    height: 100vh;
+
+    overflow-x: hidden;
+}
+
+/* ================================================= */
+
+/* ANIMATED-ARROW */
+
+div.arrow {
+    width: 0.8rem;
+    height: 0.8rem;
+    box-sizing: border-box;
+    position: relative;
+    transform: rotate(135deg);
+
+    &::before {
+        content: '';
+        width: 100%;
+        height: 100%;
+        border-width: .2rem .2rem 0 0;
+        border-style: solid;
+        border-color: #ffffff;
+        transition: .2s ease;
+        display: block;
+        transform-origin: 100% 0;
+    }
+
+    &:after {
+        content: '';
+        float: left;
+        position: relative;
+        top: -82%;
+        width: 100%;
+        height: 80%;
+        border-width: 0 .2rem 0 0;
+        border-style: solid;
+        border-color: #ffffff;
+        transform-origin: 100% 0;
+        transition: 0.2s ease;
+    }
+
+    &:hover::after {
+        transform: rotate(45deg);
+        border-color: #533c99;
+        height: 120%;
+    }
+
+    &:hover::before {
+        border-color: #533c99;
+        transform: scale(.8);
+    }
+
+}
+
+/* ================================================= */
+
+/* SLIDESHOW */
+
+.slide-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0 0 4% 0;
+
+    width: 100%;
+    height: 320px;
+
+    background-color: transparent;
+}
+
+.slide-box {
+    width: 75%;
+    height: 100%;
+
+    position: relative;
+}
+
+.slide-box img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+
+    display: none;
+}
+
+.slide-box img:first-of-type {
+    display: inline;
+}
+
+#SlideButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    z-index: 100;
+
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+
+    padding-left: 8px;
+
+    width: 32px;
+    height: 32px;
+
+    background: #1f2937;
+}
+
+#SlideButton:last-of-type {
+    padding-left: 0;
+    padding-right: 8px;
+
+    right: 0;
+}
+
+#SlideButton:hover div.arrow::after {
+    transform: rotate(45deg);
+    border-color: #533c99;
+    height: 120%;
+}
+
+#SlideButton:hover div.arrow::before {
+    border-color: #533c99;
+    transform: scale(.8);
+}
+
+/* ================================================= */
+
+/* FILTERBAR */
+
+.filter-bar-section {
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+
+    margin-bottom: 50px;
+
+    color: white;
+
+    font-family: 'Nunito', sans-serif;
+}
+
+.filter-form {
+    width: 90%;
+    height: 100%;
+
+    border-radius: 8px;
+
+    background-color: #1f2937;
+
+    padding: 15px 15px 15px 15px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.filter-form label {
+    margin-right: 8px;
+}
+
+.form-inputs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+
+
+    height: 100%;
+}
+
+.form-inputs input {
+    margin-right: 10px;
+
+    background-color: #1f2937;
+
+    width: 120px;
+    padding: 5px 6px !important;
+    border-bottom: 2px solid #84919d;
+    transition: ease-in-out 200ms;
+}
+
+.form-inputs input:focus-visible {
+    border-bottom: 2px solid #4338CA;
+}
+
+.input-box {
+    display: flex;
+    align-items: center;
+    height: 65px;
+
+    padding: 10px;
+
+    border: 1px solid #84919d;
+    border-radius: 4px;
+}
+
+.filter-actions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.filter-actions a,
+.filter-actions button {
+    background-color: #696cff;
+    color: white;
+
+    cursor: pointer;
+
+    text-wrap: nowrap;
+
+    min-width: fit-content;
+
+    padding: 10px;
+
+    scale: 1;
+
+    border-radius: 7px;
+
+    transition: ease-in-out 100ms;
+}
+
+.filter-actions a:active,
+.filter-actions button:active {
+    scale: 0.95;
+}
+
+h2.warning {
+    width: 100%;
+    text-align: center;
+
+    color: #C70039;
+
+    font-size: 15px;
+    display: none;
+}
+
+/* ================================================= */
+
+/* PRODUCTS/CATEGORIES/CART */
+
+.product-section {
+    display: flex;
+    justify-content: space-between;
+
+    width: 100%;
+    height: fit-content;
+
+    margin: 0 0 50px 0;
+}
+
+.categories {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    position: -webkit-sticky;
+    position: sticky;
+    top: 2%;
+
+    font-family: 'Arimo', sans-serif;
+
+    gap: 10px;
+
+    padding: 16px 22px 16px 22px;
+
+    margin-left: 10px;
+
+    border-radius: 8px;
+
+    width: 20%;
+    height: fit-content;
+
+    min-width: 230px;
+    min-height: 277px;
+
+    color: #ffffff;
+    background-color: #1F2937;
+
+    user-select: none;
+}
+
+.category-box {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    height: fit-content;
+
+    cursor: pointer;
+}
+
+.category-box-header {
+    width: 100%;
+    height: 30px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.category-box-header:hover {
+    color: #533c99;
+}
+
+.category-box-header:hover div.arrow::after,
+.category-box-header:hover div.arrow::before {
+    border-color: #533c99;
+}
+
+.header-title i {
+    margin-right: 5px;
+}
+
+.subcategories {
+    height: 0;
+
+    margin-left: 10px;
+
+    overflow: hidden;
+
+    transition: 300ms ease-in-out;
+}
+
+.subcategories li {
+    margin: 7.5px 0 7.5px 0;
+
+    height: 25px;
+
+    cursor: pointer;
+}
+
+.products-grid {
+    display: grid;
+    justify-items: center;
+
+    transition: 300ms ease-in-out;
+
+    padding: 0 30px 0 30px;
+
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    grid-template-rows: auto;
+    column-gap: 3%;
+    row-gap: 50px;
+
+    font-family: 'Nunito', sans-serif;
+
+    width: 80%;
+    height: fit-content;
+
+    color: #ffffff;
+}
+
+.product-box {
+    overflow: hidden;
+
+    display: flex;
+    justify-content: center;
+
+    position: relative;
+
+    border-radius: 10px;
+
+    aspect-ratio: 3/4;
+
+    width: 208px;
+    height: 277px;
+}
+
+.unavailable { 
+    filter: grayscale(1);
+}
+
+.product-box div {
+    transition: height 0.4s ease;
+}
+
+.product-box:hover div {
+    height: 2.5rem;
+}
+
+.product-photo {
+    position: absolute;
+
+    height: 100%;
+    width: 100%;
+
+    object-fit: cover;
+}
+
+.product-actions-box {
+    display: flex;
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    overflow: hidden;
+
+    width: 100%;
+    height: 0;
+}
+
+.product-actions-box a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+}
+
+.card-icon {
+    width: 25%;
+    height: 100%;
+
+    background-color: #4338CA;
+}
+
+.details-button {
+    width: 50%;
+    height: 100%;
+
+    background-color: #1F2937;
+}
+
+.favourite-icon {
+    width: 25%;
+    height: 100%;
+
+    background-color: #1F2937;
+}
+
+.favourite-icon:hover {
+    background-color: #ed0e4a;
+    ;
+}
+
+
+@media screen and (max-width: 1200px) {
+
+    .products-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+}
+
+@media screen and (max-width: 960px) {
+
+    .products-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+}
+
+@media screen and (max-width: 740px) {
+
+    .products-grid {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+
+}
+
+/* ================================================= */
+

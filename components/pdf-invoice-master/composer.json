@@ -1,0 +1,33 @@
+{
+    "name": "konekt/pdf-invoice",
+    "description": "Library to generate PDF invoices",
+    "type": "library",
+    "license": "GPL-2.0-or-later",
+    "keywords": ["invoice", "pdf", "konekt", "artkonekt"],
+    "support": {
+        "source": "https://github.com/artkonekt/pdf-invoice"
+    },
+    "authors": [
+        {
+            "name": "Attila Fulop",
+            "homepage": "https://github.com/fulopattila122"
+        }
+    ],
+    "require": {
+        "php": "^7.3|^8.0",
+        "ext-iconv": "*",
+        "ext-mbstring": "*",
+        "setasign/fpdf": "~1.8.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "8 - 9"
+    },
+    "autoload": {
+        "psr-4": { "Konekt\\PdfInvoice\\": "src/" }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Konekt\\PdfInvoice\\Tests\\": "tests/"
+        }
+    }
+}
