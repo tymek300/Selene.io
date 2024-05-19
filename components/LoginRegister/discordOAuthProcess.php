@@ -22,8 +22,8 @@
         {
             $payload = [
             'code' =>  $discord_code, 
-            'client_id' => '1214571914677198898',
-            'client_secret' => '71g3MKACQRU51zc067Lan8opxD-Hm4Ps',
+            'client_id' => 'YOUR CLIENT ID',
+            'client_secret' => 'YOUR CLIENT SECRET',
             'grant_type' => 'authorization_code',
             'redirect_uri' =>  'http://localhost/Selene.io/components/LoginRegister/discordOAuthProcess.php?action=register',
             'scope' => 'identify email'
