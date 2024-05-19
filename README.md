@@ -206,7 +206,7 @@ Ensure you have the following software installed on your machine:
   - Mail: github@test.com
   - Password: Gittest123_
 
-  Then you need to open `user profile` and click `admin dashboard` button to access dashboard. You can manage all shop `staff`.
+  Then you need to open `user profile` and click `admin dashboard` button to access dashboard. You can manage all shop `stuff`.
   
 ## 5. License
 
