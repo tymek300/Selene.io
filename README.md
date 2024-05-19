@@ -1,7 +1,5 @@
-<p align="center">
-  <h2>Lunar || Selene.io</h2>
-</p>
-
+<h2 align="center">Lunar || Selene.io</h2>
+  
 <p align="center">
   <img src="https://i.imgur.com/zXEY5fk.png" alt="Project Logo">
 </p>
