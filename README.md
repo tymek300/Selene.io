@@ -199,7 +199,15 @@ Ensure you have the following software installed on your machine:
 7. **Access the project:**
 
   Open your web browser and navigate to http://localhost/yourrepository to see the project in action.
-    
+
+## 6. How to use
+
+  To do anything with shop content you need to login to the default admin account with:
+  - Mail: github@test.com
+  - Password: Gittest123_
+
+  Then you need to open user profile and click admin dashboard button to access dashboard. You can manage all shop staff.
+  
 ## 5. License
 
 This project is licensed under the Creative Commons Attribution-NonCommercial 4.0 International License. You can find the full text of the license in the [LICENSE](./LICENSE) file.
