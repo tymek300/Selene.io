@@ -157,7 +157,7 @@ Ensure you have the following software installed on your machine:
    Open your terminal and run the following command to clone the repository:
 
    ```sh
-   git clone https://github.com/yourusername/yourrepository.git
+   git clone https://github.com/tymek300/Selene.io.git
 
  2. **Start XAMPP:**
 
