@@ -33,8 +33,8 @@
         {
             $payload = [
             'code' =>  $googleCode, 
-            'client_id' => '454901055738-qa6bkdfav4o0pcq9hdah2vctb6palgl9.apps.googleusercontent.com',
-            'client_secret' => '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',
+            'client_id' => 'YOUR CLIENT ID',
+            'client_secret' => 'YOUR CLIENT SECRET',
             'grant_type' => 'authorization_code',
             'redirect_uri' =>  'http://localhost/Selene.io/components/LoginRegister/googleOAuthProcess.php?action=login',
             ];
